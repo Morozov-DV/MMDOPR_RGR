@@ -1,0 +1,12 @@
+{
+  "name": "shop-ahp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Оптимізація асортименту інтернет-магазину: МАІ (класичний і модифікований) + лінійне програмування з двоїстими оцінками",
+  "scripts": {
+    "postinstall": "npm install --prefix server && npm install --prefix client",
+    "dev": "node scripts/dev.js",
+    "test": "npm test --prefix server",
+    "build": "npm run build --prefix client"
+  }
+}
